@@ -1,0 +1,2 @@
+module DatamodelsHelper
+end
