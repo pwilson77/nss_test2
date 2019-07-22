@@ -1,0 +1,2 @@
+class Datamodel < ApplicationRecord
+end
