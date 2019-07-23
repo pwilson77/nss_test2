@@ -4,6 +4,10 @@
 
 This project loads Microsoft Excel file data and uploads it into the Ruby On Rails Database.
 
+### Dependencies
+
+1. Install a redis-server
+
 ### To run this project
 
 1. git clone this repo
