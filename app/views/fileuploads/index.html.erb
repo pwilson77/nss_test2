@@ -1,0 +1,15 @@
+<h2>Files uploaded</h2>
+<table>
+  <tr>
+    <th>id</th>
+    <th>Filename</th>
+    <th>Date Created</th>
+  </tr>
+  <% @fileupload.each_with_index do |e,i| %>
+    <tr>
+      <td><%= i + 1 %></td>
+      <td><%= e.filename %></td>
+      <td><%= e.created_at %></td>
+    </tr>
+  <% end %>
+</table>

@@ -1,0 +1,36 @@
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td,
+th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+nav ul {
+  display: flex;
+  list-style-type: none;
+}
+
+nav ul li {
+  width: auto;
+  padding: 5px;
+}
+
+nav ul a {
+  color: black;
+  text-decoration: none;
+}
+
+nav ul a:hover {
+  text-decoration: underline;
+  font-weight: bolder;
+}

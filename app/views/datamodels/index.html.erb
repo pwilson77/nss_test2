@@ -1,0 +1,23 @@
+<h2>Database Info</h2>
+<table>
+  <tr>
+    <th>id</th>
+    <th>Firstname</th>
+    <th>Lastname</th>
+    <th>Age</th>
+    <th>Gender</th>
+    <th>Address</th>
+    <th> Parent_file</th>
+  </tr>
+  <% @datamodel.each_with_index do |e,i| %>
+    <tr>
+      <td><%= i +1 %></td>
+      <td><%= e.firstname %></td>
+      <td><%= e.lastname %></td>
+      <td><%= e.age %></td>
+      <td><%= e.gender %></td>
+      <td><%= e.address %></td>
+      <td><%= e.fileupload.filename %></td>
+    </tr>
+  <% end %>
+</table>

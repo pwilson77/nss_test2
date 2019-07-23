@@ -1,0 +1,5 @@
+<% provide(:button_text, 'Upload file') %>
+<%= form_for @fileupload do |f| %>
+  <%= f.file_field :filename %>
+  <%= f.submit yield(:button_text)%>
+<% end %>

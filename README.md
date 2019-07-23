@@ -1,24 +1,16 @@
-# README
+# NSS_TEST2
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## DESCRIPTION
 
-Things you may want to cover:
+This project loads Microsoft Excel file data and uploads it into the Ruby On Rails Database.
 
-* Ruby version
+### Dependencies
 
-* System dependencies
+1. Install a redis-server
 
-* Configuration
+### To run this project
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+1. git clone this repo
+2. Do a bundle install **_bundle install_** to install required gems.
+3. Migrate the database **_rails db:migrate_**
+4. Run server **_ rails s_**
